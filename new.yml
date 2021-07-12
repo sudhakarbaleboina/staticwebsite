@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: static
-        image: 865563157914.dkr.ecr.ap-south-1.amazonaws.com/staticwebsite:1
+        image: 865563157914.dkr.ecr.ap-south-1.amazonaws.com/staticwebsite:latest
         ports:
         - containerPort: 80
 ---
